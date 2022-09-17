@@ -36,7 +36,8 @@ void scale(int x , int y){
     ellipse(x, y, 10, 10);
     stroke(255,0,0);
     strokeWeight(10);
-    line(x-50,y-30,x-25,y-25);
+    line(x-30,y-35,x-25,y-20);
+    line(x+30,y-35,x+25,y-20);
   }
    else{
      fill(0);
@@ -53,8 +54,5 @@ void scale(int x , int y){
     rect(x-30,y-40,15,40);
     rect(x+15,y-40,15,40);
    }
-  
-
-  
 ;
 }
