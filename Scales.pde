@@ -18,7 +18,8 @@ void scale(int x , int y){
     strokeWeight(3);
     ellipse(x, y, 100, 100);
     fill(255);
-    arc(x, y,100, 100, 0, PI, CHORD);
+    arc(x, y,100, 100, 0, PI);
+    line(x-50,y,x+50,y);
     fill(255);
     ellipse(x, y, 15, 15);
     strokeWeight(.5);
@@ -29,7 +30,8 @@ void scale(int x , int y){
     strokeWeight(3);
     ellipse(x, y, 100, 100);
     fill(255);
-    arc(x, y,100, 100, 0, PI, CHORD);
+    arc(x, y,100, 100, 0, PI);
+    line(x-50,y,x+50,y);
     fill(255);
     ellipse(x, y, 15, 15);
     strokeWeight(.5);
@@ -44,7 +46,8 @@ void scale(int x , int y){
     strokeWeight(3);
     ellipse(x, y, 100, 100);
     fill(255);
-    arc(x, y,100, 100, 0, PI, CHORD);
+    arc(x, y,100, 100, 0, PI);
+    line(x-50,y,x+50,y);
     fill(255);
     ellipse(x, y, 15, 15);
     strokeWeight(.5);
@@ -56,4 +59,3 @@ void scale(int x , int y){
    }
 ;
 }
-//
